@@ -229,11 +229,11 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = "http://latest.gbitz.com";
+const char     LATEST_VERSION_URL[]                          = "https://github.com/gbitzdotcom/GalaxyBitz/releases";
 const std::string LICENSE_URL                                = "https://github.com/gbitzdotcom/";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0x67, 0x61, 0x6c, 0x61, 0x78, 0x79, 0x62, 0x69, 0x74, 0x7a, 0x6e, 0x65, 0x74, 0x77, 0x6f, 0x67  }
+    {  0x67, 0x61, 0x6c, 0x61, 0x78, 0x79, 0x62, 0x69, 0x74, 0x7a, 0x6e, 0x65, 0x74, 0x77, 0x61, 0x67  }
 };
 
 const char* const SEED_NODES[] = {
