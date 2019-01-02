@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
-// Copyright (c) 2019, The GalaxyBitz Project
+// Copyright (c) 2019 The GalaxyBitz Project
 //
 // This file is part of Bytecoin.
 //
