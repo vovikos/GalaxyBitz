@@ -36,7 +36,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 - `export CC=gcc-8`
 - `export CXX=g++-8`
 - `git clone -b master --single-branch https://github.com/gbitzdotcom/GalaxyBitz.git`
-- `cd turtlecoin`
+- `cd gbz`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
@@ -45,7 +45,7 @@ If you are using Clang, you will need Clang 6.0 or higher. You will also need li
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./GBZd --version`
 
 ##### Ubuntu, using Clang
 
@@ -79,7 +79,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./GBZd --version`
 
 ##### Generic Linux
 
@@ -98,7 +98,7 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./GBZd --version`
 
 #### OSX/Apple, using GCC
 
@@ -122,7 +122,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./GBZd --version`
 
 #### OSX/Apple, using Clang
 
@@ -146,7 +146,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 - `cd src`
-- `./TurtleCoind --version`
+- `./GBZd --version`
 
 
 #### Windows
