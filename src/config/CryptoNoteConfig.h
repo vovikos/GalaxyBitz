@@ -52,7 +52,7 @@ const uint64_t GENESIS_BLOCK_REWARD                          = UINT64_C(20000000
 const char     GENESIS_COINBASE_TX_HEX[]                     = "017801ff00018080d287e2bc2d025a68f55eeed0b03205d71d5ed40c64da93a7434719112dbaa87f91db57ad81582101af120233c1402496b5e3efbe1401f12ac9de2815ddc1d021f076817a6157c328";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
-const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1546425044;
+const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1546487160;
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
