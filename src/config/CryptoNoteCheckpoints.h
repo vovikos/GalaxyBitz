@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
-// Copyright (c) 2019 The GalaxyBitz Project
+// Copyright (c) 2019, The GalaxyBitz Project
 //
 // This file is part of Bytecoin.
 //
@@ -27,6 +27,9 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const std::initializer_list<CheckpointData> CHECKPOINTS = {};
+const std::initializer_list<CheckpointData> CHECKPOINTS = {
+	{       0, "808e1b8c40ecef9852c6089bc2c26ece3aca1736155fcdd95b2654566a8cd9a8"},
+	{       1, "5b9c79bf5ecbead51485c4c9c64ebcacbf1dc78ca0383701575e1f13a51e1d6a"}	
+};
 };
 
